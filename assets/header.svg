@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ankita Majhi | Full Stack Development</title>
+  <desc id="desc">MCA student and BCA graduate. Interfaces, APIs and data. A subtle animated line connects frontend, backend and database nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#14283e"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
+    .flow { stroke-dasharray: 14 110; animation: flow 8s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -248; } }
+    @media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+  </style>
+  <rect width="960" height="260" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="958" height="258" rx="17" fill="none" stroke="#2a3d55"/>
+  <rect x="42" y="40" width="34" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="88" y="46" fill="#8ddcec" font-size="13" font-weight="600" letter-spacing="2.5">FULL STACK DEVELOPMENT</text>
+  <text x="40" y="115" fill="#f1f5f9" font-size="52" font-weight="700" letter-spacing="-1.5">Ankita Majhi</text>
+  <text x="43" y="153" fill="#c0ccdc" font-size="20">Thoughtful interfaces. Connected applications.</text>
+  <text x="43" y="208" fill="#94a8c2" font-size="15">MCA STUDENT</text>
+  <circle cx="173" cy="203" r="2.5" fill="#5eead4"/>
+  <text x="190" y="208" fill="#94a8c2" font-size="15">BCA GRADUATE</text>
+  <path d="M636 84 H717 V172 H811" fill="none" stroke="#31465f" stroke-width="2"/>
+  <path class="flow" d="M636 84 H717 V172 H811" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <rect x="591" y="58" width="93" height="52" rx="12" fill="#13283b" stroke="#448c9a"/>
+  <text x="637" y="90" text-anchor="middle" fill="#a5f3fc" font-size="19" font-weight="600">UI</text>
+  <rect x="680" y="116" width="75" height="40" rx="10" fill="#1b2944" stroke="#6878b6"/>
+  <text x="717" y="142" text-anchor="middle" fill="#c7d2fe" font-size="16" font-weight="600">API</text>
+  <rect x="794" y="146" width="113" height="52" rx="12" fill="#13283b" stroke="#448c9a"/>
+  <text x="850" y="178" text-anchor="middle" fill="#a5f3fc" font-size="17" font-weight="600">DATA</text>
+</svg>
